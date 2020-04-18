@@ -1,5 +1,10 @@
-package warsztat.spring.models;
+package warsztat.spring;
 
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class Book {
     private Long id;
     private String isbn;
@@ -7,6 +12,11 @@ public class Book {
     private String author;
     private String publisher;
     private String type;
+
+    @Autowired
+    public Book() {
+    }
+
 
     public Book(Long id, String isbn, String title, String author, String publisher, String type) {
         this.id = id;

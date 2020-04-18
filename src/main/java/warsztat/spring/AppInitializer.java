@@ -1,4 +1,4 @@
-package spring;
+package warsztat.spring;
 
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
