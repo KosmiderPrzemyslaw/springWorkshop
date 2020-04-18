@@ -1,4 +1,4 @@
-package spring.models;
+package warsztat.spring.models;
 
 public class Book {
     private Long id;
